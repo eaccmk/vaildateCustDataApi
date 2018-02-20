@@ -1,0 +1,17 @@
+http method: POST
+sample payload:
+
+{
+"payment_method": "SWIFT",
+"bank_country_code": "US",
+"account_name": "John Smith",
+"account_number": "123",
+"swift_code": "ICBCUSBJ",
+"aba": "11122233A"
+}
+
+sample 200 response:
+
+{
+"success": "Bank details saved"
+}
